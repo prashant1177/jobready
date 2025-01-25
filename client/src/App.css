@@ -1,0 +1,131 @@
+/* Navbar.css */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-actions .btn-login,
+.nav-actions .btn-signup {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-actions .btn-login {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  transition: all 0.3s;
+}
+
+.nav-actions .btn-login:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav-actions .btn-signup {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+}
+
+.nav-actions .btn-signup:hover {
+  background-color: #0056b3;
+}
+
+
+.coverPage{
+  text-align: center;
+}
+
+.cover-form{
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: auto;
+}
+
+.cover-form button{
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.registerPage{
+  text-align: center;
+}
+
+.register-form{
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: auto;
+}
+
+.register-form input{
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.register-form textarea{
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.register-form button{
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-bottom: 16px;
+}
